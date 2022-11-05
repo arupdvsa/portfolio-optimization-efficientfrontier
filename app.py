@@ -53,7 +53,7 @@ with col2:
 	end_date = st.date_input("End Date") # it defaults to current date
 
 tickers_string = st.text_input('Enter all stock tickers to be included in portfolio separated by commas \
-								WITHOUT spaces, e.g. "MA,FB,V,AMZN,JPM,BA"', '').upper()
+								WITHOUT spaces, e.g. "MA,META,V,AMZN,JPM,BA"', '').upper()
 tickers = tickers_string.split(',')
 
 try:
@@ -109,7 +109,7 @@ try:
 	st.plotly_chart(fig_corr) # fig_corr is not a plotly chart
 	st.plotly_chart(fig_price)
 	st.plotly_chart(fig_cum_returns)
-	#st.write(plt.__version__)
+	#st.write(ppo.__version__)
 	
 	
 
