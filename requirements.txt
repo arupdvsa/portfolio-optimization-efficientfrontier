@@ -1,0 +1,8 @@
+streamlit==1.14.0
+pandas==1.5.1
+pandas-datareader
+PyPortfolioOpt
+plotly
+matplotlib
+seaborn==0.12.1
+gunicorn
